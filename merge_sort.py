@@ -1,9 +1,5 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue May  4 08:36:46 2021
 
-@author: acer
-"""
+
 # Python program for implementation of MergeSort
 def mergeSort(arr):
     if len(arr) > 1:
@@ -46,7 +42,7 @@ def mergeSort(arr):
             j += 1
             k += 1
  
-# Code to print the list
+# ma de in danh sach
  
  
 def printList(arr):
@@ -55,7 +51,6 @@ def printList(arr):
     print()
  
  
-# Driver Code
 if __name__ == '__main__':
     arr = [12, 11, 13, 5, 6, 7]
     print("mang da cho la", end="\n")
@@ -64,4 +59,3 @@ if __name__ == '__main__':
     print("mang da sap xep la: ", end="\n")
     printList(arr)
  
-# This code is contributed by Mayank Khanna
